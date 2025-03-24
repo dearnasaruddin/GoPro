@@ -7,7 +7,7 @@
 a{
   display: inline-block;
   text-decoration: none !important;
-  color: inherit;
+  color: inherit !important;
 }
 
 ul, ol{
@@ -20,9 +20,9 @@ h1, h2, h3, h4, h5, h6, p{
   margin-bottom: 0rem;
 }
 
-.container{
+/* .container{
   max-width: 1110px !important;
-}
+} */
 
 .wrapper{
   display: flex;

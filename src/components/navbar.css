@@ -1,45 +1,38 @@
-nav{
+nav {
     padding: 18px 0;
 }
 
-nav ul{
-    display: flex;
+nav ul {
     column-gap: 36px;
-    justify-content: center;
-    align-items: center;
 }
 
-nav ul li{
-    text-align: center;
-}
 
-nav ul li a{
+
+nav ul li {
     font-size: 14px;
-    font-weight: 500;
-    color: #000;
-    transition: all linear 0.3s;
     -webkit-transition: all linear 0.3s;
     -moz-transition: all linear 0.3s;
     -ms-transition: all linear 0.3s;
     -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+    cursor: pointer;
 }
 
-nav ul li a:hover{
-    color: #006D77;
+nav ul li:hover {
+    color: #006D77 !important;
 }
 
-nav .nav_btn{
+nav .nav_btn {
     font-size: 14px;
-    font-weight: 500;
-    color: #000;
     padding: 10px 20px;
     background: #BEE1E6;
-    border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+    border-radius: 8px;
 }
-nav .nav_btn i{
+
+nav .nav_btn i {
     margin-left: 5px;
 }
